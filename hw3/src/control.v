@@ -1,0 +1,31 @@
+module control(in,in2,regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch2,branch1,branch0,aluop2,aluop1,aluop0);
+input [5:0] in;
+input [4:0] in2;
+output regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch2,branch1,branch0,aluop2,aluop1,aluop0;
+wire rformat,lw,sw,beq;
+
+assign rformat=~|in;
+assign addi = (~in[5])&(~in[4])&in[3]&(~in[2])&(~in[1])&(~in[0]);
+assign andi = (~in[5])&(~in[4])&in[3]&in[2]&(~in[1])&(~in[0]);
+assign ori = (~in[5])&(~in[4])&in[3]&in[2]&(~in[1])&in[0];
+assign lw=in[5]& (~in[4])&(~in[3])&(~in[2])&in[1]&in[0];
+assign sw=in[5]& (~in[4])&in[3]&(~in[2])&in[1]&in[0];
+assign beq=~in[5]& (~in[4])&(~in[3])&in[2]&(~in[1])&(~in[0]);
+assign bne=~in[5]& (~in[4])&(~in[3])&(in[2])&(~in[1])&(in[0]);
+assign bgez=~in[5]& (~in[4])&(~in[3])&(~in[2])&(~in[1])&(in[0]);
+assign bgzt=~in[5]& (~in[4])&(~in[3])&in[2]&(in[1])&(in[0])&(~in2[4])&(~in2[3])&(~in2[2])&(~in2[1])&(in2[0]);
+assign blez=~in[5]& (~in[4])&(~in[3])&in[2]&(in[1])&(~in[0]);
+assign bltz=~in[5]& (~in[4])&(~in[3])&(~in[2])&(in[1])&(in[0])&(~in2[4])&(~in2[3])&(~in2[2])&(~in2[1])&(~in2[0]);
+assign regdest=rformat;
+assign alusrc=lw|sw|addi|ori|andi;
+assign memtoreg=lw;
+assign regwrite=rformat|lw|addi|ori|andi;
+assign memread=lw;
+assign memwrite=sw;
+assign branch2=bgzt|blez|bltz;
+assign branch1=bne|bgez|bltz;
+assign branch0=beq|bgez|blez;
+assign aluop2=andi|ori;
+assign aluop1=rformat|addi;
+assign aluop0=beq|addi|ori|bne|bgez|bgzt|blez|bltz;
+endmodule

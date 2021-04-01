@@ -1,0 +1,71 @@
+C:/Users/myasa/Desktop/Assignment3/control.v {1 {vlog -work work -stats=none C:/Users/myasa/Desktop/Assignment3/control.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} C:/Users/myasa/Desktop/Assignment3/alucont.v {1 {vlog -work work -stats=none C:/Users/myasa/Desktop/Assignment3/alucont.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alucont
+
+Top level modules:
+	alucont
+
+} {} {}} C:/Users/myasa/Desktop/Assignment3/signext.v {1 {vlog -work work -stats=none C:/Users/myasa/Desktop/Assignment3/signext.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module signext
+
+Top level modules:
+	signext
+
+} {} {}} C:/Users/myasa/Desktop/Assignment3/mult2_to_1_5.v {1 {vlog -work work -stats=none C:/Users/myasa/Desktop/Assignment3/mult2_to_1_5.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mult2_to_1_5
+
+Top level modules:
+	mult2_to_1_5
+
+} {} {}} C:/Users/myasa/Desktop/Assignment3/mult2_to_1_32.v {1 {vlog -work work -stats=none C:/Users/myasa/Desktop/Assignment3/mult2_to_1_32.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mult2_to_1_32
+
+Top level modules:
+	mult2_to_1_32
+
+} {} {}} C:/Users/myasa/Desktop/Assignment3/shift.v {1 {vlog -work work -stats=none C:/Users/myasa/Desktop/Assignment3/shift.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shift
+
+Top level modules:
+	shift
+
+} {} {}} C:/Users/myasa/Desktop/Assignment3/alu32.v {1 {vlog -work work -stats=none C:/Users/myasa/Desktop/Assignment3/alu32.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alu32
+
+Top level modules:
+	alu32
+
+} {} {}} C:/Users/myasa/Desktop/Assignment3/processor.v {1 {vlog -work work -stats=none C:/Users/myasa/Desktop/Assignment3/processor.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module processor
+
+Top level modules:
+	processor
+
+} {} {}} C:/Users/myasa/Desktop/Assignment3/jrcont.v {1 {vlog -work work -stats=none C:/Users/myasa/Desktop/Assignment3/jrcont.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module jrcont
+
+Top level modules:
+	jrcont
+
+} {} {}} C:/Users/myasa/Desktop/Assignment3/adder.v {1 {vlog -work work -stats=none C:/Users/myasa/Desktop/Assignment3/adder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}}
