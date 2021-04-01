@@ -1,3 +1,7 @@
 Computer Architecture
 
-Hw1: Implementation of binary search tree in both C and Python. Observing 'performance differences' between these two different languages. (pdf document that includes detailed explanation can be found in the folder)
+Hw1: Implementation of binary search tree in both C and Python. Observing 'performance differences' between these two different languages.
+
+Hw2: Implementation of some binary search tree operations in MIPS assembly language. 
+
+(pdf documents that include detailed explanations can be found in the folders)
