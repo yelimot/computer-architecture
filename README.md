@@ -6,4 +6,6 @@ Hw2: Implementation of some binary search tree operations in MIPS assembly langu
 
 Hw3: Implementing instructions in Verilog with MIPS-lite single-cycle datapath and revised control units.
 
+Hw4: In this assignment, I've run a set of experiments and analysed the results in order to understand the cache behavior of programs, how different cache designs affect program execution.
+
 (pdf documents that include detailed explanations can be found in the folders)
